@@ -5,3 +5,48 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+section {
+  padding: 0.5em;
+  font-family: "Lato", sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0.5em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+  padding: 0.5em;
+}
+
+.btn {
+  text-decoration: none;
+  border: 2px solid #888;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #888;
+  color: #fff;
+}
